@@ -1,0 +1,22 @@
+<div>
+    <h1 style="background-color: rgb(6, 36, 3); color: whitesmoke;text-align: center;padding: 10px;">Forgot Password
+        Application</h1>
+</div>
+<div style="width: 40%; margin: auto;">
+    <h3 style="background-color: rgb(60, 7, 160); color: whitesmoke;text-align: center;padding: 10px;">Register</h3>
+    <div style="width: 80%;margin: auto;">
+        <form action="" [formGroup]="regForm" style="width: 100%;">
+            <label for="">Email</label><br>
+            <input type="email" name="" id="" formControlName="email"><br><br>
+            <label for="">Password</label><br>
+            <input type="password" name="" id="" formControlName="password"><br><br>
+
+            <button
+                style="background-color: green;color: white; padding: 5px;border-radius: 10px; text-align: center; width: 60%;"
+                (click)="register()">Register</button>
+        </form><br>
+        <div>
+            <a routerLink="login">You have an account Login here</a>
+        </div>
+    </div>
+</div>
